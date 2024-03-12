@@ -8,8 +8,7 @@ import {
 /* eslint-disable import/no-extraneous-dependencies */
 import { TabView, TabBar, SceneMap } from 'react-native-tab-view';
 import Styles from './style/GiftVoucherUIStyle';
-import DiamondsTab from '../view/IAPListTab';
-import CoinsTab from '../view/CoinsTab';
+import InAppPurchaseListTab from '../view/InAppPurchaseListTab';
 import TabLabelStyle from '../model/TabStyling';
 
 const questionMark = require('../../../lib/resources/question.png');
@@ -44,8 +43,8 @@ const GiftVoucherUI = ({
     } = route.params;
 
     const renderScene = SceneMap({
-        diamonds: () => DiamondsTab(diamondsTabProps),
-        coins: () => CoinsTab(coinsTabProps),
+        diamonds: () => InAppPurchaseListTab(diamondsTabProps),
+        coins: () => InAppPurchaseListTab(coinsTabProps),
     });
 
     const [index, setIndex] = useState(0);

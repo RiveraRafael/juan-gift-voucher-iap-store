@@ -31,6 +31,7 @@ export default StyleSheet.create({
     itemName: {
         position: 'absolute',
         left: 10,
+        fontWeight: '500',
         fontSize: labelFontSize,
     },
     itemPriceContainer: {

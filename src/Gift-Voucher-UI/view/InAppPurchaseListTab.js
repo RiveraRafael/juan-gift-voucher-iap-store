@@ -1,9 +1,9 @@
 import React from 'react';
 import { View, ScrollView } from 'react-native';
 import GiftVoucherItemComponent from './GiftVoucherItemComponent';
-import Styles from './style/DiamondsTabStyle';
+import Styles from './style/InAppPurchaseListTabStyle';
 
-const DiamondsTab = ({ list }) => (
+const InAppPurchaseListTab = ({ list }) => (
     <View
         style={Styles.parentContainer}
     >
@@ -15,4 +15,4 @@ const DiamondsTab = ({ list }) => (
     </View>
 );
 
-export default DiamondsTab;
+export default InAppPurchaseListTab;
