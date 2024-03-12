@@ -33,6 +33,7 @@ export default StyleSheet.create({
         left: 10,
         fontWeight: '500',
         fontSize: labelFontSize,
+        color: 'black',
     },
     itemPriceContainer: {
         position: 'absolute',
@@ -42,6 +43,7 @@ export default StyleSheet.create({
     itemPrice: {
         fontWeight: 'bold',
         fontSize: labelFontSize,
+        color: 'black',
     },
     itemPriceSymbol: {
         fontWeight: 'bold',
