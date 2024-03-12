@@ -14,6 +14,7 @@ export default StyleSheet.create({
     },
     tabStyle: {
         backgroundColor: 'white',
+        marginVertical: -0.5,
     },
     tabLabel: {
         color: '#7260c8',

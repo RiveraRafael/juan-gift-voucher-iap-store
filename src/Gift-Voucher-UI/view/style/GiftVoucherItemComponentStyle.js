@@ -1,17 +1,19 @@
 import { StyleSheet } from 'react-native';
 
-const labelFontSize = 15;
-const iconWidth = 70;
+const nameFontSize = 14;
+const priceFontSize = 15;
+const iconWidth = 68;
 const iconHeight = 40;
 
 export default StyleSheet.create({
     parentContainer: {
         flexDirection: 'row',
-        paddingVertical: 20,
-        paddingHorizontal: 15,
-        marginVertical: 8,
+        paddingVertical: 13.7,
+        paddingHorizontal: 11.5,
+        marginBottom: 2,
+        marginTop: 8.5,
         backgroundColor: '#FFFFFF',
-        borderRadius: 5,
+        borderRadius: 3,
     },
     iconContainer: {
         height: iconHeight,
@@ -21,7 +23,7 @@ export default StyleSheet.create({
         backgroundColor: '#7260c8',
         paddingVertical: iconHeight,
         paddingHorizontal: iconWidth,
-        borderRadius: 10,
+        borderRadius: 8,
     },
     labelsContainer: {
         flex: 1,
@@ -30,9 +32,8 @@ export default StyleSheet.create({
     },
     itemName: {
         position: 'absolute',
-        left: 10,
-        fontWeight: '500',
-        fontSize: labelFontSize,
+        left: 8,
+        fontSize: nameFontSize,
         color: 'black',
     },
     itemPriceContainer: {
@@ -41,13 +42,13 @@ export default StyleSheet.create({
         flexDirection: 'row',
     },
     itemPrice: {
-        fontWeight: 'bold',
-        fontSize: labelFontSize,
+        fontWeight: '500',
+        fontSize: priceFontSize,
         color: 'black',
     },
     itemPriceSymbol: {
-        fontWeight: 'bold',
-        fontSize: labelFontSize,
+        fontWeight: '500',
+        fontSize: priceFontSize,
         color: '#7260c8',
     },
 });
